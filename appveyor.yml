@@ -1,0 +1,5 @@
+build: off
+
+test_script:
+- git --version
+- '"C:\Program Files\Git\git-bash.exe" --no-cd --command "echo test!"'
