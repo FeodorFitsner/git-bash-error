@@ -4,4 +4,5 @@ test_script:
 - git --version --build-options
 - ver
 - type "C:\Program Files\Git\etc\install-options.txt"
-- '"C:\Program Files\Git\git-bash.exe" --no-cd --command "echo test!"'
+#- '"C:\Program Files\Git\git-bash.exe" --no-cd --command "echo test!"'
+- '"C:\Program Files\Git\bin\bash.exe" --no-cd -c "echo test!"'
